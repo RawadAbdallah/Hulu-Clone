@@ -1,0 +1,87 @@
+@media (max-width: 870px) { 
+    .library-wrapper {
+      height: 100%;
+    }
+    .library-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  
+    .billboard-desc {
+      font-size: 0.9rem;
+      width: 90%;
+    }
+  
+    .spotlights-tab {
+      align-items: center;
+    }
+  
+    .content-title {
+      text-align: center;
+      font-size: 2rem;
+    }
+  
+    .content-desc {
+      text-align: center;
+      width: 80vw;
+      min-width: 350px;
+    }
+  
+    .tab-disclaimer {
+      width: 80vw;
+    }
+  
+    .plans-wrapper {
+      width: 100%;
+    }
+    .plans-header {
+      flex-direction: column;
+      gap: 30px;
+    }
+  
+    .head-cards-wrapper {
+      width: 100%;
+    }
+  
+    .head-card-title {
+      font-size: 3vw;
+    }
+    .head-card-pay-button {
+      font-size: 2.5vw;
+    }
+    .plan-feature {
+      flex-direction: column;
+    }
+  
+    .feature-availability-wrapper {
+      width: 100%;
+      padding-top: 10px;
+    }
+  
+    .feature-one {
+      border-right: 1px solid;
+    }
+  
+    .footer-site-links{
+      flex-wrap: wrap;
+    }
+    .footer-site-links *{
+      font-size: 2vw;
+    }
+    .footer-site-links > div:nth-child(1){
+      flex-basis:100%;
+      width: 10%;
+    }
+
+    .footer-site-links div + div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer-section-items-list{
+        align-self: center;
+    }
+  }
+  
+  

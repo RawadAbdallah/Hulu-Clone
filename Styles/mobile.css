@@ -1,0 +1,62 @@
+@media (max-width: 480px) {
+    .bundle-tagline {
+      font-size: 90%;
+    }
+  
+    .build-plan-wrapper button {
+      width: 190px;
+      padding: 10px 0;
+    }
+  
+    .library-item {
+      background-position: cover;
+      width: 150px;
+      height: 290px;
+    }
+  
+    .library-item::after {
+      bottom: -50px;
+    }
+    .library-item-eyebrow {
+      font-size: 0.8rem;
+    }
+  
+    .library-item-category {
+      font-size: 1rem;
+    }
+  
+    .billboard-mini-info {
+      width: 90%;
+    }
+  
+    .feature {
+      text-align: center;
+      font-size: 0.8rem;
+      padding: 10px;
+    }
+    .plans-disclaimer {
+      text-align: center;
+      padding: 15px;
+    }
+  
+    .plans-disclaimer p {
+      width: 100%;
+    }
+  
+    .footer-site-links *{
+      font-size: 2.5vw;
+    }
+    
+    .footer-title{
+      text-align: center;
+    }
+    
+    .footer-section-items-list{
+      text-align: center;
+    }
+
+    .footer-section-item-list{
+        align-self: center;
+    }
+  }
+  
