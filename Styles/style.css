@@ -630,6 +630,8 @@ footer{
 
 .footer-section-item{
   cursor: pointer;
+  display: flex;
+  gap: 5px;
 }
 
 .footer-legal-links{

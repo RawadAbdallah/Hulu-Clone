@@ -65,6 +65,7 @@
       flex-wrap: wrap;
     }
     .footer-site-links *{
+      text-align: center;
       font-size: 2vw;
     }
     .footer-site-links > div:nth-child(1){
