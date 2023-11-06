@@ -628,6 +628,10 @@ footer{
   width: 120px;
 }
 
+.footer-section-item{
+  cursor: pointer;
+}
+
 .footer-legal-links{
   display: flex;
   flex-direction: column;
@@ -649,8 +653,3 @@ footer{
   color: #586174;
 }
 
-.legal-link{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
